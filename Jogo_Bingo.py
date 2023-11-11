@@ -53,6 +53,4 @@ while True:
             picknum = random.choice (BingoNum)
 
             print()
-
-
-
+            print()
