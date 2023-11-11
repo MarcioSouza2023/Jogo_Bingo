@@ -51,5 +51,8 @@ while True:
                 BingoNum.append(item)
 
             picknum = random.choice (BingoNum)
+
             print()
+
+
 
