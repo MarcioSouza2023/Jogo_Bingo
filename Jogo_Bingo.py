@@ -51,8 +51,25 @@ while True:
                 BingoNum.append(item)
 
             picknum = random.choice (BingoNum)
-
             print()
 
+            if picknum >= 1 and picknum <= 15 :
+                B.append (picknum)
+                if picknum in B_list:
+                    B_list.remove(picknum)
+                print("B ==>", *B_list, sep=" ")
+                print("I ==>", *I_list, sep=" ")
+                print("N ==>", *N_list, sep=" ")
+                print("G ==>", *G_list, sep=" ")
+                print("O ==>", *O_list, sep=" ")
+
+                print("In select number")
+                print("B==>" + str(B) [1:-1], sep=" ")
+                print("I==>" + str(I)[1 :-1], sep=" ")
+                print("N==>" + str(N)[1 :-1], sep=" ")
+                print("G==>" + str(G)[1 :-1], sep=" ")
+                print("O==>" + str(O)[1 :-1], sep=" ")
+
+                print()
 
 
