@@ -1,2 +1,2 @@
-# Jogo_Bingo
+# Jogo_Bingo em Python
 Jogo Bingo
